@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    background: #232323;
+    opacity: 0;
+    position: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    transition: all ease .3s;
+}
+
+#navbar ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 30px;
+
+}
